@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import time
 
-driver = webdriver.Chrome("C:/Users/Azeem Bukhari/OneDrive/Documents/Projex/Python/Apps/chromedriver/chromedriver.exe")
+driver = webdriver.Chrome(CHROME_DRIVER)
 driver.get('https://web.whatsapp.com/')
 t_exit = 0;
         
